@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pawan Dhangar</title>
+    <link rel="icon" type="image/x-icon" href="./logo.svg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script defer src="./scripts.js"></script>
+    <link rel="stylesheet" href="./css/styles.css">
+
+</head>
+
+<body>
+    <div class="spinner-wrapper">
+        <div class="loader" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-character">P</div>
+    </div>
+
+    <!-- navbar -->
+    <header class="hLTFFw px-sm-4 ">
+        <nav id="Nav" class="navbar navbar-expand-lg ">
+            <!-- bg-body-tertiary -->
+            <div class="container-fluid ">
+                <a class="navbar-brand px-3 pt-2" href="/">
+                    <img src="./logo.svg" alt="logo" width="30" height="30">
+                </a>
+                <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around"
+                    type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="toggler-icon top-bar"></span>
+                    <span class="toggler-icon middle-bar"></span>
+                    <span class="toggler-icon bottom-bar"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-3 mt-3 mb-lg-0 ">
+                        <li class="nav-item py-1">
+                            <a class="nav-link active" aria-current="page" href="#about">About</a>
+                        </li>
+                        <li class="nav-item py-1">
+                            <a class="nav-link" href="#resume">Experience</a>
+                        </li>
+                        <li class="nav-item py-1">
+                            <a class="nav-link" href="#project">Work</a>
+                        </li>
+                        <li class="nav-item py-1">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                    <a class="btn px-3 ms-3 mt-3" style="border-color: #ebfc53; color:#f2f2f2;"
+                        href="./Pawan_Dhangar_Resume.pdf">
+                        Resume</a>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <div data-bs-spy="scroll" data-bs-target="#navbarcall" data-bs-root-margin="0px 0px -40%"
+        data-bs-smooth-scroll="true" tabindex="0">
+
+        <section id="hero">
+            <div class="container hero-container col-xxl-8 px-3">
+
+                <div class="row flex-lg-row-reverse align-items-center g-5 ">
+                    <div class="col-12 ">
+                        <p class="px-1 geet">Hi, my name is</p>
+                        <h1 class="display-2 fw-bold  lh-1 mb-3 mt-4">Pawan Dhangar.</h1>
+                        <h2 class="display-2 fw-bold  lh-1 mb-3 mt-3"> I make stuff for the
+                            internet.
+                        </h2>
+                        <p class="lead intro mt-lg-4  m-lg-1">I'm an aspiring software
+                            development engineer with a passion for crafting software that truly makes an impact.
+                            Currently, I'm diving deep into full stack development while actively on the hunt for an
+                            exciting software engineer role. See my work on <a href="https://github.com/PawanDhangar"
+                                target="_blank" rel="noopener noreferrer">GitHub</a>.</p>
+                        <div class="d-grid gap-2 mx-2 mt-5 d-md-flex justify-content-md-start">
+                            <button type="button" class="btn btn-lg px-4" style="border-color: #ebfc53; color:#f2f2f2;"
+                                fdprocessedid="mz01n4"> <a style="color:#f2f2f2; list-style: none; text-decoration:none"
+                                    href="https://github.com/PawanDhangar"> Check out my
+                                    work!</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- about -->
+        <section id="about">
+            <div class="container col-xxl-8 px-4">
+                <div class="row  align-items-start justify-content-center g-5 pt-5">
+                    <div class="col-lg-12 px-4 px-lg-4 mt-0">
+                        <div class="section-title">
+                            <h2 class="">About Me</h2>
+                            <p>A engineering student, An aspiring software engineer & a tech enthusiast... </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <p class="lead">Hey there! I'm an aspiring software development engineer with a burning passion
+                            for crafting software that truly leaves a mark. I believe that technology has the power to
+                            transform lives, and I'm on a mission to be a driving force behind that transformation..</p>
+
+                        <p class="lead">Currently, my journey has taken me deep into the world of full stack
+                            development. I'm immersing myself in both the frontend and backend realms, learning how each
+                            piece of the puzzle fits together to create seamless digital experiences. It's like building
+                            a bridge between creativity and functionality, and I'm loving every bit of it.</p>
+                        <p class="lead">Here are a few technologies I’ve been working with recently:</p>
+                        <ul class="skills-list">
+                            <li>JavaScript (ES6+)</li>
+                            <li>Data Structures</li>
+                            <li>React</li>
+                            <li>Java</li>
+                            <li>Node.js</li>
+                            <li>MongoDB</li>
+                        </ul>
+                    </div>
+                    <div class=" overflow pt-5 pt-lg-0 col-sm-8 col-lg-4 my-5">
+                        <img src="./img/photo.jpg" class="d-block profile order-1 rounded-2 mx-lg-auto img-fluid"
+                            alt="Bootstrap Themes" height="500" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- experience-->
+        <section class="Experi" id="resume">
+            <div class="container col-xxl-8 px-4">
+                <div class="row align-items-start g-5">
+                    <div class="col-lg-10 px-4">
+                        <div class="section-title">
+                            <h2 class="">Education & Experience</h2>
+                            <p>Education and experiences I have acquired...</p>
+                        </div>
+                    </div>
+                    <div class=" col-lg-10 mt-0 ">
+                        <div class="resume-box">
+                            <ul class="side">
+                                <li>
+                                    <div class="icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+                                            fill="currentColor" class="bi bi-mortarboard" viewBox="0 0 16 16">
+                                            <path
+                                                d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5ZM8 8.46 1.758 5.965 8 3.052l6.242 2.913L8 8.46Z" />
+                                            <path
+                                                d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Zm-.068 1.873.22-.748 3.496 1.311a.5.5 0 0 0 .352 0l3.496-1.311.22.748L8 12.46l-3.892-1.556Z" />
+                                        </svg>
+                                    </div>
+                                    <span class="time"> Jul 2022 - Present</span>
+                                    <h5 class="">GEEKS FOR GEEKS | Tech Blogs Writer</h5>
+                                    <div class="experience">
+                                        <ul class="work px-0 pt-3">
+                                            <li class=" pb-3 mb-0">Created informative articles focusing on BlockChain
+                                                Development, providing readers with valuable insights into this
+                                                cutting-edge technology.</li>
+                                            <li class=" pb-3 mb-0">Crafted a detailed article explaining the intricacies
+                                                of decentralized application structures, helping readers grasp the
+                                                fundamental concepts behind these innovative applications.</li>
+                                            <li class=" pb-3 mb-0">Explored the Blockchain ecosystem by writing an
+                                                article about the life cycle of smart contracts, shedding light on the
+                                                inner workings of these crucial components in the world of Blockchain
+                                                technology.
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+                                            fill="currentColor" class="bi bi-mortarboard" viewBox="0 0 16 16">
+                                            <path
+                                                d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5ZM8 8.46 1.758 5.965 8 3.052l6.242 2.913L8 8.46Z" />
+                                            <path
+                                                d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Zm-.068 1.873.22-.748 3.496 1.311a.5.5 0 0 0 .352 0l3.496-1.311.22.748L8 12.46l-3.892-1.556Z" />
+                                        </svg>
+                                    </div>
+                                    <span class="time">Dec 2022 - Feb 2023</span>
+                                    <h5 class="">Ministry of Cooperation</h5>
+                                    <div class="experience">
+                                        <ul class="work px-0 pt-3">
+                                            <li class="pb-3 mb-0">Volunteered as a dedicated data entry contributor,
+                                                demonstrating a keen attention to detail and accuracy while inputting
+                                                and organizing essential information for the organization.</li>
+                                            <li class=" pb-3 mb-0">Played an important role in maintaining data
+                                                integrity by carefully reviewing and verifying data entries,
+                                                contributing to the overall quality and reliability of the
+                                                organization's records.</li>
+                                            <li class="pb-3 mb-0">Efficiently handled large volumes of data, showcasing
+                                                strong organizational skills and the ability to meet deadlines, which
+                                                helped streamline data management processes for the team.
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+                                            fill="currentColor" class="bi bi-mortarboard" viewBox="0 0 16 16">
+                                            <path
+                                                d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5ZM8 8.46 1.758 5.965 8 3.052l6.242 2.913L8 8.46Z" />
+                                            <path
+                                                d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Zm-.068 1.873.22-.748 3.496 1.311a.5.5 0 0 0 .352 0l3.496-1.311.22.748L8 12.46l-3.892-1.556Z" />
+                                        </svg>
+                                    </div>
+                                    <span class="time"> Jul 2020 - Present</span>
+                                    <h5 class="">Mandsour University | B.Tech</h5>
+                                    <div class="experience">
+                                        <ul class="work px-0 pt-3">
+                                            <li class=" pb-3 mb-0">Currently pursuing a Bachelor's degree in Technology
+                                                at Mandsour University, where I'm gaining a strong foundation in various
+                                                technical subjects and expanding my knowledge in the world of
+                                                technology.</li>
+                                            <li class=" pb-3 mb-0">Actively engaging in coursework related to software
+                                                development, data structures, algorithms, and the MERN stack, enhancing
+                                                my skills to tackle real-world technical challenges.</li>
+                                            <li class=" pb-3 mb-0">Taking the initiative to further explore my passion
+                                                for AI, web development, and emerging technologies, through personal
+                                                projects and independent learning, to stay at the forefront of
+                                                technological advancements.
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- Work -->
+        <section id="project">
+
+            <div class="container  col-xxl-6 px-4 ">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="section-title section-title-projects">
+                            <h2 class="">Projects</h2>
+                            <p>My Work, Some Things I’ve Built...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row scrolling-wrapper flex-row flex-nowrap row-cols-1 row-cols-md-2 px-4 ">
+                    <div class="col">
+                        <div class="card mb-4">
+                            <img src="./img/bankApp.png" class="img-fluid" />
+                            <a href="https://github.com/PawanDhangar/BankApp">
+                                <div class="mask"></div>
+                            </a>
+
+                            <div class="card-body">
+                                <h5 class="card-title font-weight-bold"><a>Apna Bank</a></h5>
+                                <p class="mb-2">The banking application</p>
+                                <p class="card-text">
+                                    A comprehensive banking application using Java and Android Studio. This app
+                                    seamlessly integrates core banking functionalities, providing users with secure
+                                    access to account information,Through a user-friendly interface. the app enhances
+                                    banking convenience.
+                                </p>
+                                <ul class="project-tech-list">
+                                    <li>Java</li>
+                                    <li>Android Studio</li>
+                                </ul>
+                                <a href="#!" class="btn btn-dark mt-3  p-md-1 mb-0"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                        class="bi bi-github" viewBox="0 0 16 16">
+                                        <path
+                                            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+                                    </svg> </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mb-4">
+                            <img src="./img/blockchain.png" class="img-fluid" />
+                            <a href="https://github.com/PawanDhangar/">
+                                <div class="mask"></div>
+                            </a>
+
+                            <div class="card-body">
+                                <h5 class="card-title font-weight-bold"><a>BlockRize</a></h5>
+                                <p class="mb-2">The blockchain base social media</rantp>
+                                <p class="card-text">
+                                    BlockRize, a visionary project, emerges through the LANs protocol, introducing a
+                                    revolutionary social media experience. Seamlessly integrated with Metamask, it
+                                    enables secure crypto transactions, amplifying the power of blockchain technology
+                                    within the realm of social networking.
+                                </p>
+                                <ul class="project-tech-list">
+                                    <li>JavaScript</li>
+                                    <li>Lans Protocal</li>
+                                </ul>
+                                <a href="#!" class="btn btn-dark mt-3  p-md-1 mb-0"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                        class="bi bi-github" viewBox="0 0 16 16">
+                                        <path
+                                            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+                                    </svg> </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mb-4">
+                            <img src="./img/Resume.png" class="img-fluid" />
+                            <a href="https://github.com/PawanDhangar/OnlineResume_V1">
+                                <div class="mask"></div>
+                            </a>
+
+                            <div class="card-body">
+                                <h5 class="card-title font-weight-bold"><a>Resume</a></h5>
+                                <p class="mb-2">The Online Resume project</p>
+                                <p class="card-text">
+                                    A dynamic inline resume using HTML. This interactive and visually appealing resume
+                                    showcases my skills, experience, and projects in a concise yet captivating format.
+                                    Elevate your resume presentation with this modern web-based approach. nteractive
+                                    inline resume.
+                                </p>
+                                <ul class="project-tech-list">
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>JavaScript</li>
+                                </ul>
+                                <a href="#!" class="btn btn-dark mt-3  p-md-1 mb-0"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                        class="bi bi-github" viewBox="0 0 16 16">
+                                        <path
+                                            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+                                    </svg> </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Contact -->
+        <section id="contact">
+            <div class="px-2 text-center tXnPDP ">
+                <h2 class="numbered-heading overline">What’s Next?</h2>
+                <h2 class="title display-4 fw-bold  lh-1">Get In Touch</h2>
+                <p class="lead">While I am actively exploring new opportunities, my inbox remains open. Whether you have
+                    inquiries or just want to connect, I'll do my utmost to respond promptly!</p>
+                <a class="btn text-center" style="border-color: #ebfc53; color:#f2f2f2;" href=""
+                    rel="noopener noreferrer" target="_blank">Say Hello</a>
+            </div>
+        </section>
+
+        <!-- footer -->
+        <section class="m-0 p-0" id="footer">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
+                <div class="col-md-4 d-flex align-items-center">
+                    <a href="/" class="mx-4 mb-md-0 text-muted text-decoration-none lh-1">
+                        <img src="./logo.svg" alt="logo" width="30" height="30">
+                    </a>
+                    <span class="mb-3 mb-md-0 ">Designed & Built by Pawan Dhangar</span>
+                </div>
+
+                <ul class="px-4 mb-0 py-2 py-sm-0 col-md-4 justify-content-end list-unstyled d-flex">
+                    <li class="me-4"><a class="text-muted" href="https://twitter[].com/PawanDhangar/"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="25" height="25" style="color: #ebfc53;"
+                                fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                                <path
+                                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                            </svg></a></li>
+                    <li class="me-3"><a class="text-muted" href="https://Linkedin.com/PawanDhangar/"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="25" height="25" style="color: #ebfc53;"
+                                fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                                <path
+                                    d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                            </svg></a></li>
+                    <li class="me-3"><a class="text-muted" href="https://github.com/PawanDhangar/"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="25" height="25" style="color: #ebfc53;"
+                                fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+                            </svg></use>
+                            </svg></a></li>
+                </ul>
+            </footer>
+        </section>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+
+</html>
