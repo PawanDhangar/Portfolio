@@ -127,6 +127,10 @@ section {
   transform: rotate(0deg);
 }
 
+.navbar-toggler:focus {
+  display: block;
+}
+
 /* nav */
 .navbar  {
   /* color: #b3b5bc; */
