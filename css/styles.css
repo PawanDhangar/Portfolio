@@ -147,12 +147,6 @@ section {
     box-shadow: 5px 5px 0px 0px #ebfc53;
     transition: .25s ease-in-out; 
 }
-
-/* .navbar-brand{
-  padding-left:18px;
-} */
-
-
 .navbar-nav > li{
     padding-left:16px;
     padding-right:16px;
