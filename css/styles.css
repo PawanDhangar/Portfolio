@@ -396,9 +396,24 @@ padding-bottom:10px;
   min-height: 96%;
   border-radius: 0;
 }
+.card p {
+  flex: 1;
+}
+
 .card-body{
   padding-left: 0;
+  display: flex;
+  flex-direction: column;
 }
+.github-button{
+  display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+    border-radius: 0;
+}
+
 .scrolling-wrapper{
 	overflow-x: auto;
   size: 8px;
